@@ -4,7 +4,7 @@ import { program } from 'commander'
 import * as readline from 'readline'
 import * as path from 'path'
 import * as fs from 'fs'
-import { AudibleAuthHelper } from '#helpers/auth/AudibleAuthHelper'
+import AudibleAuthHelper from '#helpers/auth/AudibleAuthHelper'
 
 // Create readline interface
 const rl = readline.createInterface({
