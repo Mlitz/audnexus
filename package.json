@@ -2,6 +2,9 @@
 	"name": "audnexus",
 	"version": "1.9.1",
 	"description": "An API for aggregating audiobook data",
+	"bin": {
+    		"audnexus-auth": "./dist/bin/audnexus-auth.js"
+  },
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/djdembeck/audnexus"
