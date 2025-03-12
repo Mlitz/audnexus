@@ -17,6 +17,7 @@ import showChapter from '#config/routes/books/chapters/show'
 import deleteBook from '#config/routes/books/delete'
 import showBook from '#config/routes/books/show'
 import UpdateScheduler from '#helpers/utils/UpdateScheduler'
+import auth from '#config/routes/auth'
 
 // Heroku or local port
 const host = '0.0.0.0'
@@ -92,6 +93,7 @@ async function registerRoutes() {
 		.register(showAuthor)
 		.register(deleteAuthor)
 		.register(searchAuthor)
+		.register(auth)
 }
 
 /**
