@@ -3,8 +3,8 @@
 	"version": "1.9.1",
 	"description": "An API for aggregating audiobook data",
 	"bin": {
-    		"audnexus-auth": "./dist/bin/audnexus-auth.js"
-  },
+		"audnexus-auth": "./dist/bin/audnexus-auth.js"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/djdembeck/audnexus"
@@ -40,6 +40,7 @@
 		"cheerio": "1.0.0-rc.12",
 		"commander": "^11.1.0",
 		"domhandler": "5.0.3",
+		"dotenv": "^16.4.7",
 		"fastify": "4.28.1",
 		"html-to-text": "9.0.5",
 		"jest-mock-extended": "3.0.7",
